@@ -10,11 +10,18 @@ html, body{
     place-items: center;
     background-color: black;
 }
-h1 {
+.heading h1 {
     font-size: 72px;
     background: -webkit-linear-gradient(180deg, #14ffe9, #ffeb3b);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+  }
+  .heading p{
+    font-size: 15px;
+    background: -webkit-linear-gradient(180deg, #14ffe9, #ffeb3b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-left: 325px;
   }
 .container{
     height: 100px;
